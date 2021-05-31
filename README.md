@@ -72,20 +72,20 @@ networking:
   - 172.30.0.0/16
 platform:
   vsphere:
-    apiVIP: 10.54.158.103
-    cluster: HYPERFLEX-INNO-ARG
-    datacenter: HYPERFLEX-INNO-ARG
-    defaultDatastore: HX-DP-OPC-MAXI
-    ingressVIP: 10.54.158.104
-    network: ACI_LAB_DEMO|ACI_AppProf|EPG-Hyperflex-Vlan304
-    password: Mmunoz2021$
-    username: mmunoz@vsphere.local
-    vCenter: 10.54.153.150
-    folder: "/HYPERFLEX-INNO-ARG/vm/openshift4/ocp4"
+    apiVIP: ...
+    cluster: ...
+    datacenter: ...
+    defaultDatastore: ...
+    ingressVIP: ...
+    network: ...
+    password: ..
+    username: ..
+    vCenter: 10.54...
+    folder: "/../vm/openshift4/ocp4"
 publish: External
 fips: false
 pullSecret: '{"auths":{"cloud.openshift.com":{"auth":" "registry.redhat.io":{"auth":"}}'
-sshKey: 'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCrLllyv1BFIYSgCamLLPID0QcawHtHIaKRilIGhe5RWr/mW8LNRGN30fNa0xHq2Rb/PLMKrEzVMuVo27hjgnpfo0+11X9+IpB5ugG3BfZGCwbjx9Iz+gV4TMh482wUjRMt8pQ45VvBPIrwuozJaB7YJvjOJQqpw3vRA8a6W6NkaqCS/0N9dBNHjp8XJrMxQSQ4DBoLxCQsS39lJX4aAedxtjPH7d706Xmz3lHdgJztrLrCsz1tAppGz1AhzscwBeBTAOCugwq3e3+XVKfCmOhZDTxtblk/frPyRU18Wv32+ZFCQc7CaZwsrO3M2xuK1+Sru0hNJXOtZ2offDYK/zNN root@vm_adrimarti'
+sshKey: 'ssh-rsa ..............'
 ```
 --------------------------------------------------------------------------
 
